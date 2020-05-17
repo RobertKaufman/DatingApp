@@ -1,11 +1,11 @@
 using System;
-using System.Collections.Generic;
 
 namespace DatingApp.API.Dtos
 {
-    public class PhotosForDetailedDto
+    public class PhotoForReturnDto
     {
-         public int Id { get; set; }
+        
+        public int Id { get; set; }
 
         public string Url { get; set; }
 
@@ -15,6 +15,6 @@ namespace DatingApp.API.Dtos
 
         public bool IsMain { get; set; }
 
-        //public ICollection<PhotosForDetailedDto> Photos { get; set; }
+        public string PublicId  { get; set; }
     }
 }
